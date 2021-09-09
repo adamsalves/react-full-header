@@ -1,7 +1,7 @@
 import React from 'react';
 
 const FullHeader = () => (
-  <header></header>
+    <header></header>
 );
 
 export default FullHeader;
