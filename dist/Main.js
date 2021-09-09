@@ -15,7 +15,7 @@ var _Styles = require('./Styles');
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
 var defaultProps = {
-    bgColor: '#ccc',
+    bgColor: '#ddd',
     textColor: '#fff',
     font: 'sans-serif',
     bgImg: ''

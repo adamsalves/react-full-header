@@ -7,7 +7,7 @@ var titleStyle = exports.titleStyle = {
 };
 
 var subtitleStyle = exports.subtitleStyle = {
-    fontSize: '2rem',
+    fontSize: '2.1rem',
     lineHeight: '1.5'
 };
 

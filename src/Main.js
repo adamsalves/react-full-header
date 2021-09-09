@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { headerStyle, containerStyle, titleStyle, subtitleStyle, videoStyle } from './Styles';
 
 const defaultProps = {
-    bgColor: '#ccc',
+    bgColor: '#ddd',
     textColor: '#fff',
     font: 'sans-serif',
     bgImg: '',

@@ -4,7 +4,7 @@ export const titleStyle = {
 };
 
 export const subtitleStyle = {
-    fontSize: '2rem',
+    fontSize: '2.1rem',
     lineHeight: '1.5',
 };
 
