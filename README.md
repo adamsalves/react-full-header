@@ -1,6 +1,8 @@
 # React full header
 a full-screen header react component
+
 [![Build Status](https://app.travis-ci.com/adamsalves/react-full-header.svg?branch=main)](https://app.travis-ci.com/adamsalves/react-full-header)
+
 ## Demo
 
 [Live examples](https://adamsalves.github.io/react-full-header)
