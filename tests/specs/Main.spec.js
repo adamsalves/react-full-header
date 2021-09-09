@@ -58,4 +58,28 @@ describe('<FullHeader />', () => {
     });
   });
 
+  context('textColor', () => {
+    it('should have color equal #ccc when none is passed', () => {
+        const wrapper = shallow(<FullHeader title="My Awesome Title" />);
+        expect(wrapper).to.have.style('color').equal('#fff');
+    });
+
+    it('should have color equal #ff0000 when is passed', () => {
+        const wrapper = shallow(<FullHeader title="My Awesome Title" textColor="#ff0000" />);
+        expect(wrapper).to.have.style('color').equal('#ff0000');
+    });
+  });
+
+  context('font', () => {
+    it('should have font-family equal sans-serif when none is passed', () => {
+        const wrapper = shallow(<FullHeader title="My Awesome Title" />);
+        expect(wrapper).to.have.style('font-family').equal('sans-serif');
+    });
+
+    it('should have font-family equal open-sans when is passed', () => {
+        const wrapper = shallow(<FullHeader title="My Awesome Title" font="open-sans" />);
+        expect(wrapper).to.have.style('font-family').equal('open-sans');
+    });
+  });
+
 });
