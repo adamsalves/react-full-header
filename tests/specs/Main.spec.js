@@ -47,9 +47,9 @@ describe('<FullHeader />', () => {
   });
 
   context('bgColor', () => {
-    it('should have background-color equal #ccc when none is passed', () => {
+    it('should have background-color equal #ddd when none is passed', () => {
         const wrapper = shallow(<FullHeader title="My Awesome Title" />);
-        expect(wrapper).to.have.style('background-color').equal('#ccc');
+        expect(wrapper).to.have.style('background-color').equal('#ddd');
     });
 
     it('should have background-color equal #000 when is passed', () => {
@@ -59,7 +59,7 @@ describe('<FullHeader />', () => {
   });
 
   context('textColor', () => {
-    it('should have color equal #ccc when none is passed', () => {
+    it('should have color equal #fff when none is passed', () => {
         const wrapper = shallow(<FullHeader title="My Awesome Title" />);
         expect(wrapper).to.have.style('color').equal('#fff');
     });
