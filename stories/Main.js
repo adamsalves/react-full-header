@@ -49,6 +49,6 @@ storiesOf('Full Header', module)
         subtitle="My subtitle"
         bgColor="#EBE9EB"
         textColor="#3299BB"
-        video="http://callmenick.com/_development/video/full-screen-background-video/media/demo.mp4"
+        video="https://css-tricks-post-videos.s3.us-east-1.amazonaws.com/Island%20-%204141.mp4"
     />
   ));
