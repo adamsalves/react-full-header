@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 const FullHeader = ({ title }) => {
     const component = (
@@ -11,8 +11,8 @@ const FullHeader = ({ title }) => {
 };
 
 const propTypes = {
-    title: PropTypes.string
-}
+    title: PropTypes.string,
+};
 
 FullHeader.propTypes = propTypes;
 
