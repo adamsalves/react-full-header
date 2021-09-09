@@ -7,7 +7,7 @@ a full-screen header react component
 ## Installation
 
 ```sh
-$ npm install --save react-full-header
+$ npm install --save react-full-header-ad
 ```
 
 ## Basic Usage
